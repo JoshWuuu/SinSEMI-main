@@ -5,7 +5,7 @@ This is the private code base of SinSEM, the paper is currently reviewed and the
 python -m pip install -r requirements.txt
 ```
 This code was built and tested with python 3.8 and torch 2.1.0
-## SinSEM Training
+## SinSEMI Training
 The training images are provided in ./data/training_data/.
 ```
 python main.py --mode train \
@@ -14,8 +14,8 @@ python main.py --mode train \
                 --results_folder ./results/ 
 ```
 
-## SinSEM Sampling
-Generate samples using a trained SinSEM model:
+## SinSEMI Sampling
+Generate samples using a trained SinSEMI model:
 ```
 python main.py --mode sample \ 
                 --dataset_folder ./data/training_data/<Line_Pair> \
@@ -47,4 +47,4 @@ All images are provide in PNG format.
 ## Pretrained Models
 All pretrained models are in [pretrain_models_zip_link](https://drive.google.com/file/d/1sltmYL0K2NRw2-CXjw52gFDXPfQCNC3L/view?usp=sharing).
 ## Sourse
-The SinSEM code was adapted from the following [SinDDM](https://github.com/fallenshock/SinDDM)
+The SinSEMI code was adapted from the following [SinDDM](https://github.com/fallenshock/SinDDM)
