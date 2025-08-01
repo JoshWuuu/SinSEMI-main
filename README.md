@@ -37,7 +37,7 @@ The segmentaion code is provided as followed.
 ```
 python segmentation/segmentation_evaluation.py --path2real-defect <file_path_to_real_with_defect> --path2real-nodefect <file_path_to_real_without_defect> --path2fake <folder_path_to_fake>
 ```
-All the segmentation results are provided in ./segmentation/line_pair.zip.
+All the segmentation pretrained models and testing outputs are provided in [segmentation_results_link](https://drive.google.com/file/d/1zJUb9eco9ul2eduSmYJ0JpWvlkLx39DW/view?usp=sharing).
 ## Training data and Evaluation Data
 The training images are provided in ./data/training_data/.
 
@@ -45,6 +45,6 @@ All the evaluation images in the paper are provided in ./data/evaluation_data as
 
 All images are provide in PNG format.
 ## Pretrained Models
-All pretrained models are in [pretrain_models_zip_link](https://drive.google.com/file/d/1yc61rHriBnlwb2Ctjii5zjq6WQ0N2dJP/view?usp=drive_link).
+All pretrained models are in [pretrain_models_zip_link](https://drive.google.com/file/d/1sltmYL0K2NRw2-CXjw52gFDXPfQCNC3L/view?usp=sharing).
 ## Sourse
 The SinSEM code was adapted from the following [SinDDM](https://github.com/fallenshock/SinDDM)
